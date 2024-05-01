@@ -1,0 +1,11 @@
+.storybook-tags {
+  display: inline-flex;
+  align-items: center;
+}
+
+.storybook-tags--sm {
+  gap: 8px;
+}
+.storybook-tags--md {
+  gap: 12px;
+}
