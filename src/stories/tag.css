@@ -1,0 +1,50 @@
+.storybook-tag {
+  font-family: 'Pretendard';
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 auto;
+
+  color: #222;
+  background-color: #f9f9f9;
+  border: 1px solid #bbb
+}
+.storybook-tag:hover {
+  border: 1px solid #afd278
+}
+.storybook-tag:focus {
+  color: #f9f9f9;
+  background-color: #afd278;
+  border: 1px solid #afd278
+}
+
+.storybook-tag--primary {
+  color: #f9f9f9;
+  background-color: #afd278;
+  border: 1px solid #afd278
+
+}
+.storybook-tag--secondary {
+  color: #222;
+  background-color: #f9f9f9;
+  border: 1px solid #bbb
+}
+.storybook-tag--secondary:hover {
+  border: 1px solid #afd278
+}
+
+.storybook-tag--sm {
+  height: 32px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 11px 20px;
+  line-height: 0;
+}
+.storybook-tag--md {
+  height: 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 12px 24px;
+  line-height: 1;
+}
